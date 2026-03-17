@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samsung Mobile Phones & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body><h1>Samsung Mobile Phone Models & Prices</h1><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Samsung Galaxy S24">
+  <div class="details">
+    <h2>Samsung – Galaxy S24</h2>
+    <div class="price">₹79,999</div>
+    <p>256GB | Snapdragon 8 Gen 3</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Dynamic AMOLED Display, AI Camera, 5G Support</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Samsung Galaxy S23">
+  <div class="details">
+    <h2>Samsung – Galaxy S23</h2>
+    <div class="price">₹74,999</div>
+    <p>256GB | Flagship</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, Triple Camera, Gorilla Glass</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Samsung Galaxy A55">
+  <div class="details">
+    <h2>Samsung – Galaxy A55</h2>
+    <div class="price">₹39,999</div>
+    <p>128GB | Exynos Processor</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Super AMOLED, 120Hz Display, 5000mAh Battery</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Samsung Galaxy A35">
+  <div class="details">
+    <h2>Samsung – Galaxy A35</h2>
+    <div class="price">₹30,999</div>
+    <p>128GB | 5G Support</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, 50MP Camera, Knox Security</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Samsung Galaxy M34">
+  <div class="details">
+    <h2>Samsung – Galaxy M34</h2>
+    <div class="price">₹18,999</div>
+    <p>128GB | Budget 5G</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">6000mAh Battery, Super AMOLED Display</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Samsung Galaxy F54">
+  <div class="details">
+    <h2>Samsung – Galaxy F54</h2>
+    <div class="price">₹49,999</div>
+    <p>256GB | Pro Camera</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">108MP Camera, OIS, Night Photography</div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>

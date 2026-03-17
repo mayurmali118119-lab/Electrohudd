@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  
+  <title>Realme Mobile Phones & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body><h1>Realme Mobile Phone Models & Prices</h1><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Realme GT 5 Pro">
+  <div class="details">
+    <h2>Realme – GT 5 Pro</h2>
+    <div class="price">₹35,999</div>
+    <p>256GB | Snapdragon 8 Gen 3</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, 50MP Camera, 100W Fast Charging</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Realme GT Neo 3">
+  <div class="details">
+    <h2>Realme – GT Neo 3</h2>
+    <div class="price">₹29,999</div>
+    <p>128GB | Gaming Performance</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Dimensity Processor, 120Hz Display</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Realme Narzo 60 Pro">
+  <div class="details">
+    <h2>Realme – Narzo 60 Pro</h2>
+    <div class="price">₹23,999</div>
+    <p>128GB | Curved Display</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Screen, 5000mAh Battery</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Realme 12 Pro+">
+  <div class="details">
+    <h2>Realme – 12 Pro+</h2>
+    <div class="price">₹29,499</div>
+    <p>256GB | 200MP Camera</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Curved AMOLED Display, OIS Camera</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Realme C55">
+  <div class="details">
+    <h2>Realme – C55</h2>
+    <div class="price">₹10,999</div>
+    <p>64GB | Budget Phone</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Large Display, Long Battery Life</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Realme Narzo N53">
+  <div class="details">
+    <h2>Realme – Narzo N53</h2>
+    <div class="price">₹8,999</div>
+    <p>64GB | Slim Design</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">5000mAh Battery, Fast Charging Support</div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  
+  <title>OnePlus Mobile Phones & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body><h1>OnePlus Mobile Phone Models & Prices</h1><div class="card">
+  <img src="https://via.placeholder.com/200" alt="OnePlus 12">
+  <div class="details">
+    <h2>OnePlus – 12</h2>
+    <div class="price">₹64,999</div>
+    <p>256GB | Snapdragon 8 Gen 3</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, Hasselblad Camera, 100W Charging</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="OnePlus 11">
+  <div class="details">
+    <h2>OnePlus – 11</h2>
+    <div class="price">₹56,999</div>
+    <p>256GB | Flagship Performance</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, Hasselblad Camera, Fast Charging</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="OnePlus Nord 3">
+  <div class="details">
+    <h2>OnePlus – Nord 3</h2>
+    <div class="price">₹33,999</div>
+    <p>128GB | Premium Midrange</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">120Hz AMOLED, Dimensity Processor</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="OnePlus Nord CE 3">
+  <div class="details">
+    <h2>OnePlus – Nord CE 3</h2>
+    <div class="price">₹26,999</div>
+    <p>128GB | Slim Design</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, 80W SuperVOOC Charging</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="OnePlus Nord CE 3 Lite">
+  <div class="details">
+    <h2>OnePlus – Nord CE 3 Lite</h2>
+    <div class="price">₹19,999</div>
+    <p>128GB | Budget Friendly</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">108MP Camera, Large Display</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="OnePlus Nord N30">
+  <div class="details">
+    <h2>OnePlus – Nord N30</h2>
+    <div class="price">₹15,999</div>
+    <p>128GB | Entry Level</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Smooth Display, 5000mAh Battery</div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>

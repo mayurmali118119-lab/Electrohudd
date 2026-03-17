@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivo Mobile Phones & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Vivo Mobile Phone Models & Prices</h1>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Vivo X100 Pro">
+  <div class="details">
+    <h2>Vivo – X100 Pro</h2>
+    <div class="price">₹79,999</div>
+    <p>256GB | Snapdragon 8s Gen 3</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">120Hz AMOLED, Zeiss Camera, Wireless Charging</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Vivo X90">
+  <div class="details">
+    <h2>Vivo – X90</h2>
+    <div class="price">₹59,999</div>
+    <p>256GB | Imaging Phone</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">50MP Zeiss Lens, AMOLED Display, 5G</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Vivo V29">
+  <div class="details">
+    <h2>Vivo – V29</h2>
+    <div class="price">₹34,999</div>
+    <p>128GB | Slim Design</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, 64MP Selfie, Fast Charging</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Vivo V27 Pro">
+  <div class="details">
+    <h2>Vivo – V27 Pro</h2>
+    <div class="price">₹39,999</div>
+    <p>256GB | Curved Display</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">6.78" AMOLED, 50MP Portrait Camera</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Vivo Y77">
+  <div class="details">
+    <h2>Vivo – Y77</h2>
+    <div class="price">₹19,999</div>
+    <p>128GB | Balanced Performance</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">50MP Camera, 5000mAh Battery, Fast Charge</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Vivo Y55">
+  <div class="details">
+    <h2>Vivo – Y55</h2>
+    <div class="price">₹15,999</div>
+    <p>128GB | Entry Level</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Large Display, Long Battery Life</div>
+  </div>
+</div>
+
+<script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+Here is your same card-style design with **six Lenovo laptop models**:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lenovo Laptop Models & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Lenovo Laptop Models & Prices</h1>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Lenovo ThinkPad X1 Carbon">
+  <div class="details">
+    <h2>Lenovo – ThinkPad X1 Carbon</h2>
+    <div class="price">₹1,39,999</div>
+    <p>14" | Intel i7 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Business Laptop, 1TB SSD, Lightweight & Durable</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Lenovo IdeaPad Slim 5">
+  <div class="details">
+    <h2>Lenovo – IdeaPad Slim 5</h2>
+    <div class="price">₹72,999</div>
+    <p>15.6" | Ryzen 5 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Full HD Display, 512GB SSD, Slim Design</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Lenovo Legion 5">
+  <div class="details">
+    <h2>Lenovo – Legion 5</h2>
+    <div class="price">₹1,19,999</div>
+    <p>15.6" | Ryzen 7 | RTX Graphics</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Gaming Laptop, 144Hz Display, 1TB SSD</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Lenovo Yoga 7">
+  <div class="details">
+    <h2>Lenovo – Yoga 7</h2>
+    <div class="price">₹94,999</div>
+    <p>14" | Intel i5 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">2-in-1 Convertible, Touchscreen, Fast Charging</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Lenovo ThinkBook 14">
+  <div class="details">
+    <h2>Lenovo – ThinkBook 14</h2>
+    <div class="price">₹68,999</div>
+    <p>14" | Intel i5 | 8GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Business Laptop, 512GB SSD, Fingerprint Reader</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Lenovo IdeaPad Gaming 3">
+  <div class="details">
+    <h2>Lenovo – IdeaPad Gaming 3</h2>
+    <div class="price">₹82,999</div>
+    <p>15.6" | Ryzen 5 | GTX Graphics</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Gaming Performance, 120Hz Display, 512GB SSD</div>
+  </div>
+</div>
+
+<script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script>
+
+</body>
+</html>
+```

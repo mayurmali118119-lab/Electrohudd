@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ElectroShop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#eaeded;
+}
+
+
+
+.navbar{
+background:#131921;
+color:white;
+display:flex;
+align-items:center;
+padding:10px 20px;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+margin-right:20px;
+color:#ff9900;
+}
+
+.search{
+flex:1;
+display:flex;
+}
+
+.search input{
+width:100%;
+padding:10px;
+border:none;
+}
+
+.search button{
+background:#febd69;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+
+.menu{
+margin-left:20px;
+}
+
+
+
+.category{
+background:#232f3e;
+color:white;
+padding:10px;
+display:flex;
+gap:20px;
+font-size:14px;
+font-weight:bold;
+}
+
+
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:5px;
+transition:0.2s;
+text-align:center;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:contain;
+text-align:center;
+}
+
+.title{
+font-size:16px;
+margin:10px 0;
+}
+
+.price{
+color:#B12704;
+font-weight:bold;
+}
+
+.buy{
+background:#ffd814;
+border:none;
+padding:8px 15px;
+margin-top:10px;
+cursor:pointer;
+}
+div.ex1{
+    background-color: #e1eaea;
+    border: none;
+ 
+	text-align:center;
+
+}
+img.exx1{
+    border:0px solid black;
+    border-radius:50px;
+}
+img.exx2{
+    border:none;
+    border-radius:50px;
+}
+a:visited {
+    color: white;
+}
+
+a {
+    text-decoration: none; 
+}
+
+a:link{
+    color: white;
+}
+div.ex2{
+     
+    border: none;
+    border-radius:50px;
+	text-align:center;
+}
+
+.bottom{
+background:#232f3e;color:white;padding:40px 20px;
+}
+.bottomm{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;max-width:1200px;
+margin:auto;
+}
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.product-card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.product-card img{
+width:100%;
+height:150px;
+object-fit:contain;
+}
+
+.buy-btn{
+background:#ff9900;
+border:none;
+padding:10px 15px;
+color:white;
+cursor:pointer;
+border-radius:5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="logo">ElectroShop</div>
+
+<div class="search">
+<input type="text" placeholder="Search Electronics">
+<button>Search</button>
+</div>
+
+<div class="menu">
+<a href="accc.html" style="color:white;">Account</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="category">
+
+<div><a href="mobile.html">Mobiles</a></div>
+<div><a href="lapatop.html">Laptops</a></div>
+<div><a href="ref.html">Refrigerator</a></div>
+
+<div><a href="tvv.html">Tv</a></div>
+
+
+</div><br><br>
+
+<div>
+<center>
+<a href="nothing.html">
+<img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1770980205310.jpeg" width="1800" class="exx1">
+</a>
+</center>
+</div><br>
+
+<div>
+<center>
+    <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1770375909353.jpeg"
+         width="1800" class="exx2">
+</center>
+</div>
+
+
+<div class="products">
+
+<div class="card">
+<img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1770640550340.png">
+<div class="title">Amaznfit Smart Watche</div>
+<div class="price">₹2999</div>
+<button class="buy"><a href="watch.html">Buy Now</a></button>
+</div>
+
+<div class="card">
+<img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1770356851527.png">
+<div class="title">OnePluse Pad lite</div>
+<div class="price">₹14999</div>
+<button class="buy"><a href="tablet.html">Buy Now</a></button>
+</div>
+
+<div class="card">
+<img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1769153918313.png">
+<div class="title">TCL 139 CM TV </div>
+<div class="price">₹9999</div>
+<button class="buy"><a href="tv.html">Buy Now</a></button>
+</div>
+
+<div class="card">
+<img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1770791060525.png">
+<div class="title">Pixel 9a</div>
+<div class="price">₹21999</div>
+<button class="buy"><a href="p.html">Buy Now</a></button>
+</div>
+
+
+
+<div class="card">
+<img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1770377408661.png">
+<div class="title">Onepluse 13 Series</div>
+<div class="price">₹14999</div>
+<button class="buy"><a href="onee.html">Buy Now</a></button>
+</div>
+
+
+
+<div class="card">
+<img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1770120315708.png">
+<div class="title">Voltas 1.5 Ton AC</div>
+<div class="price">₹79999</div>
+<button class="buy"><a href="acc.html">Buy Now</a></button>
+</div>
+
+
+
+<div class="card">
+<img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1772626868201.png">
+<div class="title">AirPods Pro </div>
+<div class="price">₹24999</div>
+<button class="buy"><a href="air.html">Buy Now</a></button>
+</div>
+
+</div><br>
+<div class="ex1">
+    <h1>Deals on Latest Tablets</h1>
+
+    <a href="int.html"><img src="tab1.jpg"hspace="10"></a>
+    <a href="int2.html"><img src="tab2.jpg"hspace="10"></a>
+    <a href="int3.html"><img src="tab3.jpg"hspace="10"></a>
+    <a href="int4.html"><img src="tab4.jpg"hspace="10"></a>
+    <a href="int5.html"><img src="tab5.jpg"hspace="10"></a>
+</div>
+<div class="ex2">
+    <h1>Best Selling Personal Care Range</h1>
+
+    <a href="har.html"> <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/havells/494622895/0/VuztKrenod-g0jiXWNMa-Havells-Glamour-Duo-HC4035-Hair-Styler-494622895-1.jpg"hspace="10">
+
+    <a href="tr.html"> <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/philips/494460109/0/kWjJ8_634--NEbTgszdhm-PHILIPS-ONE-BLADE-HBRD-494460109-i-1.jpg"hspace="10">
+
+    <a href="h.html"> <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/dyson/494622882/0/iJyMVFVp_v-mLKweoHsV-Dyson-Airstrait-Hair-Straightner-494622882-1.jpg"hspace="10">
+
+ <a href="tt.html"><img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/philips/493858054/0/OJhhIbgQJC-BGIRZ4YML-MG_BT1230_18_1500x1500_PDP_July25_1.jpg"hspace="10">
+
+</div>
+<br><br>
+<br><br>
+
+<div class="bottom">
+
+<div class="bottomm">
+
+<div>
+<h3>Get to Know Us</h3>
+<p><a href="#" style="color:#ddd;">About ElectroShop</a></p>
+<p><a href="#" style="color:#ddd;">Careers</a></p>
+<p><a href="#" style="color:#ddd;">Press Releases</a></p>
+<p><a href="#" style="color:#ddd;">ElectroShop Science</a></p>
+</div>
+
+<div>
+<h3>Shop With Us</h3>
+<p><a href="#" style="color:#ddd;">Mobiles</a></p>
+<p><a href="#" style="color:#ddd;">Laptops</a></p>
+<p><a href="#" style="color:#ddd;">Tablets</a></p>
+<p><a href="#" style="color:#ddd;">Accessories</a></p>
+</div>
+
+<div>
+<h3>Make Money With Us</h3>
+
+<p><a href="#" style="color:#ddd;">Affiliate Program</a></p>
+<p><a href="#" style="color:#ddd;">Advertise Your Products</a></p>
+<p><a href="#" style="color:#ddd;">Become a Partner</a></p>
+</div>
+
+<div>
+<h3>Contact & Help</h3>
+<p>Email: support@electroshop.com</p>
+<p>Phone: +91 8149718119</p>
+<p>Shirpur, India</p>
+</div>
+
+</div>
+
+<hr style="margin:30px 0;border:0;border-top:1px solid #3a4553;">
+
+<center>
+<h2 style="color:#ff9900;">ElectroShop</h2>
+<p style="color:#ccc;">© 2026 ElectroShop. All Rights Reserved.</p>
+</center>
+
+</div>
+</body>
+</html>

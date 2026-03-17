@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redmi Mobile Phones & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body><h1>Redmi Mobile Phone Models & Prices</h1><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Redmi Note 13 Pro+">
+  <div class="details">
+    <h2>Redmi – Note 13 Pro+</h2>
+    <div class="price">₹31,999</div>
+    <p>256GB | 200MP Camera</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Curved AMOLED Display, 120W Fast Charging</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Redmi Note 13 Pro">
+  <div class="details">
+    <h2>Redmi – Note 13 Pro</h2>
+    <div class="price">₹25,999</div>
+    <p>256GB | Snapdragon Processor</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, OIS Camera, Fast Charging</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Redmi Note 12">
+  <div class="details">
+    <h2>Redmi – Note 12</h2>
+    <div class="price">₹14,999</div>
+    <p>128GB | Budget Friendly</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">AMOLED Display, 5000mAh Battery</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Redmi 13C">
+  <div class="details">
+    <h2>Redmi – 13C</h2>
+    <div class="price">₹9,999</div>
+    <p>64GB | Entry Level</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Large Display, Long Battery Life</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Redmi K50i">
+  <div class="details">
+    <h2>Redmi – K50i</h2>
+    <div class="price">₹29,999</div>
+    <p>128GB | Gaming Phone</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Dimensity Processor, 144Hz Display</div>
+  </div>
+</div><div class="card">
+  <img src="https://via.placeholder.com/200" alt="Redmi A2">
+  <div class="details">
+    <h2>Redmi – A2</h2>
+    <div class="price">₹7,499</div>
+    <p>32GB | Basic Smartphone</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Android Go Edition, 5000mAh Battery</div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>

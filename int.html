@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Page</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.cart {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #232f3e;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* MAIN */
+.container {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+/* IMAGE */
+.product-image img {
+    width: 400px;
+    border-radius: 10px;
+border: 3px solid black;
+padding: 10px;
+}
+
+/* DETAILS */
+.product-details {
+    flex: 1;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rating {
+    color: orange;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 28px;
+    color: #b12704;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+}
+
+.discount {
+    color: green;
+    margin-left: 10px;
+}
+
+/* OFFERS */
+.offers {
+    margin-top: 20px;
+}
+
+.offer-box {
+    background: #f7f7f7;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-left: 4px solid orange;
+}
+
+/* BUTTON */
+.buy-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ffd814;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-btn:hover {
+    background: #f7ca00;
+}
+
+/* FEATURES */
+.features {
+    margin-top: 20px;
+}
+
+.features li {
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 40px;
+    background: #131921;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image img {
+        width: 100%;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="logo">
+	  ELECTROHUB </div>
+
+ 
+
+  
+</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    Electronics | Mobiles | Fashion | Deals
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+    <!-- IMAGE -->
+    <div class="product-image">
+        <img src="tab1.jpg">
+    </div>
+
+    <!-- DETAILS -->
+    <div class="product-details">
+
+        <div class="title">
+            OnePlus Pad Lite | 11" Display, 9340mAh Battery, 8GB RAM, 128GB Storage
+        </div>
+
+        <div class="rating">
+            ⭐⭐⭐⭐☆ 4.3 (975 ratings)
+        </div>
+
+        <div class="price">
+            ₹17,999 
+            <span class="old-price">₹19,999</span>
+            <span class="discount">-10%</span>
+        </div>
+
+        <p>Inclusive of all taxes</p>
+
+        <div class="offers">
+            <div class="offer-box">💳 No Cost EMI available</div>
+            <div class="offer-box">🏦 Bank discount up to ₹2000</div>
+            <div class="offer-box">💰 Cashback ₹539</div>
+        </div>
+
+        <button class="buy-btn"><a href="pay.html">Buy Now</a></button>
+
+        <ul class="features">
+            <li>✔ 11-inch Full HD Display</li>
+            <li>✔ 9340mAh Battery</li>
+            <li>✔ 8GB RAM + 128GB Storage</li>
+            <li>✔ LTE Support</li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="footer">
+    © 2026 MyShop | All Rights Reserved
+</div>
+
+</body>
+</html>

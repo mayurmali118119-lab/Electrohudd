@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  
+  <title>Mobile Models & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+a:visited {
+color:	 #ffffff;
+}
+a {
+      text-decoration: none; 
+    }
+
+a:link{
+color: #ffffff;
+}
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+a:visited {
+color:	 black;
+}
+a {
+      text-decoration: none; 
+    }
+
+a:link{
+color: black;
+}
+h1.e1{
+background-image:url("https://th.bing.com/th/id/OIP.6DnlUqJaBm5pu-jPeamUywHaEK?w=322&h=181&c=7&r=0&o=7&cb=defcache2&pid=1.7&rm=3&defcache=1");
+background-repeat: no-repeat;
+   background-size: cover;
+color: white;
+
+}
+.e1{border:1px solid black;
+
+border-radius:50px;}
+
+
+  </style>
+</head>
+<body><pre><h1 class="e1">  <a href="code.html">ELECTROHUB</a>                                                                                                <a href="code.html"> HOME</a> <a href="about.html"> ABOUT</a> <a href="contact.html"> CONTRACT     </h1></pre></a>
+<h1>Mobile Phone Models & Prices</h1><div class="card">
+ <a href="apple.html"> <img src="ip.jpg" alt="Apple iPhone"></a>
+  <div class="details">
+    <h2>Apple – </h2>
+    <div class="price">₹69,999</div>
+    <p>128GB | A15 Bionic</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">
+      6.1-inch OLED Display, Dual Camera System, iOS Support
+    </div>
+  </div>
+</div><div class="card">
+  <a href="samsang.html"><img src="s23.jpg" alt="Samsung Mobile"></a>
+  <div class="details">
+    <h2>Samsung – </h2>
+    <div class="price">₹74,999</div>
+    <p>256GB | Snapdragon 8 Gen 2</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">
+      AMOLED Display, Triple Camera, 5G Connectivity
+    </div>
+  </div>
+</div><div class="card">
+ <a href="oneplus.html"> <img src="one.jpg" alt="OnePlus Mobile"></a>
+  <div class="details">
+    <h2>OnePlus – </h2>
+    <div class="price">₹24,999</div>
+    <p>128GB | Fast Charging</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">
+      120Hz Display, OxygenOS, 5000mAh Battery
+    </div>
+  </div>
+</div><div class="card">
+ <a href="real.html"> <img src="re.jpg" alt="Redmi Mobile"></a>
+  <div class="details">
+    <h2>Redmi – Note 13 Pro</h2>
+    <div class="price">₹25,999</div>
+    <p>256GB | 200MP Camera</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">
+      AMOLED Display, Fast Charging, MIUI Interface
+    </div>
+  </div>
+</div><div class="card">
+  <a href="realme.html"><img src="rea.jpg" alt="Realme Mobile"></a>
+  <div class="details">
+    <h2>Realme – </h2>
+    <div class="price">₹17,999</div>
+    <p>128GB | Slim Design</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">
+      Super AMOLED Display, 5000mAh Battery, 5G Support
+    </div>
+  </div>
+</div><div class="card">
+  <a href="vivo.html"><img src="y20.jpg" alt="Vivo Mobile"></a>
+  <div class="details">
+    <h2>Vivo – </h2>
+    <div class="price">₹21,499</div>
+    <p>128GB | Stylish Look</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">
+      AMOLED Display, 64MP Camera, Fast Charging
+    </div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>

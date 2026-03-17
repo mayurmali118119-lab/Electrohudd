@@ -1,0 +1,143 @@
+<!DOCTYPE html><html lang="en">
+<head>
+ 
+  <title>Washing machine Models & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 250px;
+      height: 300px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+a:visited {
+color:	 black;
+}
+a {
+      text-decoration: none; 
+    }
+
+a:link{
+color: black;
+}
+h1.e1{
+background-image:url("https://th.bing.com/th/id/OIP.6DnlUqJaBm5pu-jPeamUywHaEK?w=322&h=181&c=7&r=0&o=7&cb=defcache2&pid=1.7&rm=3&defcache=1");
+background-repeat: no-repeat;
+   background-size: cover;
+color: white;
+
+}
+.e1{border:1px solid black;
+
+border-radius:50px;}
+  </style>
+</head>
+<body><pre><h1 class="e1">  <a href="code.html">ELECTROHUB</a>                                                                                                <a href="code.html"> HOME</a> <a href="about.html"> ABOUT</a> <a href="contact.html"> CONTRACT     </h1></pre></a>
+<h1>Washing machine & Prices</h1><div class="card">
+  <a href="lap.html"><img src="w1.webp" alt="Dell Laptop"></a>
+  <div class="details">
+    <h2>Dell – </h2>
+    <div class="price">₹52,999</div>
+    <p>Intel i5 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, 15.6-inch FHD Display, Windows 11</div>
+  </div>
+</div><div class="card">
+ <a href="hp.html"> <img src="w2.webp" alt="HP Laptop"></a>
+  <div class="details">
+    <h2>HP – </h2>
+    <div class="price">₹58,499</div>
+    <p>Intel i5 | Slim Design</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, Backlit Keyboard, FHD Display</div>
+  </div>
+</div><div class="card">
+ <a href="lenovo.html"> <img src="w3.webp" alt="Lenovo Laptop"></a>
+  <div class="details">
+    <h2>Lenovo – </h2>
+    <div class="price">₹54,999</div>
+    <p>Ryzen 5 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, Dolby Audio, Metal Body</div>
+  </div>
+</div><div class="card">
+  <a href="applelaptop.html"><img src="w4.webp" alt="Apple Laptop"></a>
+  <div class="details">
+    <h2>Apple – </h2>
+    <div class="price">₹74,999</div>
+    <p>M1 Chip | macOS</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">13.3-inch Retina Display, Long Battery Life</div>
+  </div>
+</div><div class="card">
+  <a href="asus.html"><img src="w5.webp" alt="Asus Laptop"></a>
+  <div class="details">
+    <h2>ASUS – </h2>
+    <div class="price">₹49,999</div>
+    <p>Intel i5 | Lightweight</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, NanoEdge Display, Fingerprint Sensor</div>
+  </div>
+</div><div class="card">
+  <img src="w6.webp" alt="Acer Laptop">
+  <div class="details">
+    <h2>Acer –</h2>
+    <div class="price">₹56,999</div>
+    <p>Ryzen 5 | Performance</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Dedicated Graphics, 512GB SSD, FHD Display</div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>

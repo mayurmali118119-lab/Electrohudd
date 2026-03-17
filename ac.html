@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en">
+<head>
+ 
+  <title>AC Models & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body><h1>AC Models & Prices</h1><div class="card">
+  <a href="lap.html"><img src="https://th.bing.com/th/id/OIP.6yJ3rgHzIGsH5ZH5IzpesQHaFo?w=191&h=180&c=7&r=0&o=7&cb=defcachec2&pid=1.7&rm=3"></a>
+  <div class="details">
+    <h2>Samsung – </h2>
+    <div class="price">₹52,999</div>
+    <p>Intel i5 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, 15.6-inch FHD Display, Windows 11</div>
+  </div>
+</div><div class="card">
+ <a href="hp.html"> <img src="https://th.bing.com/th/id/OIP.bspCFgpF40G3zDT-ObpHRwHaE0?w=232&h=180&c=7&r=0&o=7&cb=defcachec2&pid=1.7&rm=3"></a>
+  <div class="details">
+    <h2>Daikin – </h2>
+    <div class="price">₹58,499</div>
+    <p>Intel i5 | Slim Design</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, Backlit Keyboard, FHD Display</div>
+  </div>
+</div><div class="card">
+ <a href="lenovo.html"> <img src="https://th.bing.com/th/id/OIP.8LhJ0CaWyhQ7s2zxlZZ3hAHaE8?w=258&h=180&c=7&r=0&o=7&cb=defcachec2&pid=1.7&rm=3"></a>
+  <div class="details">
+    <h2>Voltas – </h2>
+    <div class="price">₹54,999</div>
+    <p>Ryzen 5 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, Dolby Audio, Metal Body</div>
+  </div>
+</div><div class="card">
+  <a href="applelaptop.html"><img src="https://th.bing.com/th/id/OIP.PtQNDDVk36cpcjEfdTQD-QHaE8?w=256&h=180&c=7&r=0&o=7&cb=defcachec2&pid=1.7&rm=3"></a>
+  <div class="details">
+    <h2>Whirlpool– </h2>
+    <div class="price">₹74,999</div>
+    <p>M1 Chip | macOS</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">13.3-inch Retina Display, Long Battery Life</div>
+  </div>
+</div><div class="card">
+  <a href="asus.html"><img src="https://th.bing.com/th/id/OIP.8HFSJEr43ZpA0P_Q_7Gi0gHaEO?w=252&h=180&c=7&r=0&o=7&cb=defcachec2&pid=1.7&rm=3"></a>
+  <div class="details">
+    <h2>Blue Star – </h2>
+    <div class="price">₹49,999</div>
+    <p>Intel i5 | Lightweight</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, NanoEdge Display, Fingerprint Sensor</div>
+  </div>
+</div><div class="card">
+  <img src="https://th.bing.com/th/id/OIP.XmbT8u2Sr8SxVyddIr2UGgHaEK?w=281&h=180&c=7&r=0&o=7&cb=defcachec2&pid=1.7&rm=3">
+  <div class="details">
+    <h2>Haier –</h2>
+    <div class="price">₹56,999</div>
+    <p>Ryzen 5 | Performance</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Dedicated Graphics, 512GB SSD, FHD Display</div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>

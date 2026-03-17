@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>webpage</title>
+</head>
+<body>
+<h1>Stundent Information Form</h1>
+<form>
+<label>Full Name</label><br><br>
+<input type="text" placeholder="Enter your Full Name"><br><br>
+<label>password</label><br><br>
+<input type="password"placeholder="Enter Password"><br><br>
+<label>Gender</label><br><br>
+<input type"text"
+</body>
+</html>

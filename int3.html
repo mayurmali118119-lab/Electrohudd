@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Product</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    background: white;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-image img {
+    width: 300px;
+    border-radius: 10px;
+border: 3px solid black;
+padding: 20px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.rating {
+    color: #f39c12;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 28px;
+    color: #b12704;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.discount {
+    color: green;
+    margin-left: 10px;
+}
+
+.specs {
+    margin-top: 15px;
+}
+
+.specs li {
+    margin-bottom: 6px;
+}
+
+.offers {
+    margin-top: 20px;
+}
+
+.offer-box {
+    background: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #ffa41c;
+    border-radius: 5px;
+}
+
+.buy-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #ffa41c;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-btn:hover {
+    background: #ff8f00;
+}
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image img {
+        width: 100%;
+    }
+}
+.header {
+    background: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+</style>
+
+</head>
+
+<body>
+<div class="header">
+    <div class="logo">ELECTROHUB</div>
+
+ 
+
+    
+</div>
+
+<div class="container">
+
+    <!-- Image -->
+    <div class="product-image">
+        <img src="tab3.jpg" alt="Mobile">
+    </div>
+
+    <!-- Details -->
+    <div class="product-details">
+
+        <div class="title">
+            iQOO Z9 5G | 6.67" AMOLED Display, 8GB RAM, 128GB Storage
+        </div>
+
+        <div class="rating">
+            ⭐⭐⭐⭐☆ (4.4 | 2,150 reviews)
+        </div>
+
+        <div class="price">
+            ₹19,999 
+            <span class="old-price">₹23,999</span>
+            <span class="discount">-17%</span>
+        </div>
+
+        <p>Inclusive of all taxes</p>
+
+        <!-- Specs -->
+        <ul class="specs">
+            <li>✔ 6.67" AMOLED Display (120Hz)</li>
+            <li>✔ MediaTek Dimensity 7200 Processor</li>
+            <li>✔ 8GB RAM + 128GB Storage</li>
+            <li>✔ 50MP Sony Camera</li>
+            <li>✔ 5000mAh Battery + Fast Charging</li>
+        </ul>
+
+        <!-- Offers -->
+        <div class="offers">
+            <div class="offer-box">
+                💳 No Cost EMI starting ₹900/month
+            </div>
+
+            <div class="offer-box">
+                🏦 Bank Offer: ₹2000 instant discount
+            </div>
+
+            <div class="offer-box">
+                💰 Cashback up to ₹750
+            </div>
+        </div>
+
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>

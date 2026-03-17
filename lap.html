@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dell Laptop Models & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Dell Laptop Models & Prices</h1>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Dell XPS 13">
+  <div class="details">
+    <h2>Dell – XPS 13</h2>
+    <div class="price">₹1,29,999</div>
+    <p>13.4" | Intel i7 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">InfinityEdge Display, 512GB SSD, Lightweight Design</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Dell XPS 15">
+  <div class="details">
+    <h2>Dell – XPS 15</h2>
+    <div class="price">₹1,69,999</div>
+    <p>15.6" | Intel i9 | 32GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">4K Display, 1TB SSD, NVIDIA Graphics</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Dell Inspiron 15">
+  <div class="details">
+    <h2>Dell – Inspiron 15</h2>
+    <div class="price">₹62,999</div>
+    <p>15.6" | Intel i5 | 8GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Full HD Display, 512GB SSD, Everyday Performance</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Dell Inspiron 14">
+  <div class="details">
+    <h2>Dell – Inspiron 14</h2>
+    <div class="price">₹58,999</div>
+    <p>14" | Ryzen 5 | 8GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Compact Design, 512GB SSD, Long Battery Life</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Dell Latitude 5430">
+  <div class="details">
+    <h2>Dell – Latitude 5430</h2>
+    <div class="price">₹1,09,999</div>
+    <p>14" | Intel i7 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Business Laptop, Secure Login, 1TB SSD</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200" alt="Dell Alienware m16">
+  <div class="details">
+    <h2>Dell – Alienware m16</h2>
+    <div class="price">₹2,19,999</div>
+    <p>16" | Intel i9 | RTX Graphics</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Gaming Laptop, RGB Keyboard, 1TB SSD</div>
+  </div>
+</div>
+
+<script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script>
+
+</body>
+</html>

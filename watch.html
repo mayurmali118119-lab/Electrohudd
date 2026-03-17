@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en">
+<head>
+ 
+  <title>watch Models & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body><h1>watch Models & Prices</h1><div class="card">
+  <a href="lap.html"><img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/amazfit/491997023/0/FlBaMwPk6Z-c8CJMs7zhu-Amazfit-BIP-U-PRO-A2008-Smart-Watch-491997023-i-1-1200Wx1200H.jpeg"></a>
+  <div class="details">
+    <h2>Dell – </h2>
+    <div class="price">₹52,999</div>
+    <p>Intel i5 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, 15.6-inch FHD Display, Windows 11</div>
+  </div>
+</div><div class="card">
+ <a href="hp.html"> <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/amazfit/491946527/0/Ou5afAGrgj-BQ7UuTrLWC-Amazfit-BIP-U-Smart-Watches-491946527-i-1-1200Wx1200H.jpeg"></a>
+  <div class="details">
+    <h2>HP – </h2>
+    <div class="price">₹58,499</div>
+    <p>Intel i5 | Slim Design</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, Backlit Keyboard, FHD Display</div>
+  </div>
+</div><div class="card">
+ <a href="lenovo.html"> <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/amazfit/493664571/0/Y9ndIr7LvH-SQ8swe0hfP-Portronics-POR-1578-Travel-Speaker-493664571-i-1-1200Wx1200H.jpeg"></a>
+  <div class="details">
+    <h2>Lenovo – </h2>
+    <div class="price">₹54,999</div>
+    <p>Ryzen 5 | 16GB RAM</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, Dolby Audio, Metal Body</div>
+  </div>
+</div><div class="card">
+  <a href="applelaptop.html"><img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/amazfit/493838282/0/A0P6XEcGuJ-_k-QH_NqTi-Amazfit-Pop-3S-Smart-Watch-493838282-i-1-1200Wx1200H.jpeg"></a>
+  <div class="details">
+    <h2>Apple – </h2>
+    <div class="price">₹74,999</div>
+    <p>M1 Chip | macOS</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">13.3-inch Retina Display, Long Battery Life</div>
+  </div>
+</div><div class="card">
+  <a href="asus.html"><img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/amazfit/494582669/0/9ttkStbb9b-_n9qeLNKO6-Amazfit-Active-2-Square-Smartwatch-494582669-i-1-1200Wx1200H.jpeg"></a>
+  <div class="details">
+    <h2>ASUS – </h2>
+    <div class="price">₹49,999</div>
+    <p>Intel i5 | Lightweight</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">512GB SSD, NanoEdge Display, Fingerprint Sensor</div>
+  </div>
+</div><div class="card">
+  <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/amazfit/494352425/0/pTgZFmjE17-p-D8m7S5ux-Amazfit-Pop-3R-494352425-i-1-1200Wx1200H.jpeg">
+  <div class="details">
+    <h2>Acer –</h2>
+    <div class="price">₹56,999</div>
+    <p>Ryzen 5 | Performance</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Dedicated Graphics, 512GB SSD, FHD Display</div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>

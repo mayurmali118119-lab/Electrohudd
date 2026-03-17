@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablet Product</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    background: white;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-image img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.rating {
+    color: #f39c12;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 28px;
+    color: #b12704;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.discount {
+    color: green;
+    margin-left: 10px;
+}
+
+.specs {
+    margin-top: 15px;
+}
+
+.specs li {
+    margin-bottom: 6px;
+}
+
+.offers {
+    margin-top: 20px;
+}
+
+.offer-box {
+    background: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #ffa41c;
+    border-radius: 5px;
+}
+
+.buy-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #ffa41c;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-btn:hover {
+    background: #ff8f00;
+}
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image img {
+        width: 100%;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Image -->
+    <div class="product-image">
+        <img src="int4.jpg" alt="Tablet">
+    </div>
+
+    <!-- Details -->
+    <div class="product-details">
+
+        <div class="title">
+            Xiaomi Pad 6 | 11" 2.8K Display, 8GB RAM, 256GB Storage, Snapdragon 870
+        </div>
+
+        <div class="rating">
+            ⭐⭐⭐⭐⭐ (4.6 | 3,200 reviews)
+        </div>
+
+        <div class="price">
+            ₹26,999 
+            <span class="old-price">₹30,999</span>
+            <span class="discount">-13%</span>
+        </div>
+
+        <p>Inclusive of all taxes</p>
+
+        <!-- Specs -->
+        <ul class="specs">
+            <li>✔ 11-inch 2.8K Display (144Hz)</li>
+            <li>✔ Qualcomm Snapdragon 870 Processor</li>
+            <li>✔ 8GB RAM + 256GB Storage</li>
+            <li>✔ 8840mAh Battery</li>
+            <li>✔ Quad Speakers with Dolby Atmos</li>
+        </ul>
+
+        <!-- Offers -->
+        <div class="offers">
+            <div class="offer-box">
+                💳 No Cost EMI starting ₹1,200/month
+            </div>
+
+            <div class="offer-box">
+                🏦 Bank Offer: ₹3000 discount on credit cards
+            </div>
+
+            <div class="offer-box">
+                💰 Cashback up to ₹1200
+            </div>
+        </div>
+
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+02.08 4:53 PM
+<!DOCTYPE html><html lang="en">
+<head>
+ 
+  <title>Tablet Models & Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      display: flex;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .details {
+      padding: 15px;
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 8px 0;
+    }
+    .price {
+      color: #1a73e8;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+      font-size: 14px;
+    }
+a:visited {
+color:	 black;
+}
+a {
+      text-decoration: none; 
+    }
+
+a:link{
+color: black;
+}
+h1.e1{
+background-image:url("https://th.bing.com/th/id/OIP.6DnlUqJaBm5pu-jPeamUywHaEK?w=322&h=181&c=7&r=0&o=7&cb=defcache2&pid=1.7&rm=3&defcache=1");
+background-repeat: no-repeat;
+   background-size: cover;
+color: white;
+
+}
+.e1{border:1px solid black;
+
+border-radius:50px;}
+  </style>
+</head>
+<body><pre><h1 class="e1">  <a href="code.html">ELECTROHUB</a>                                                                                                <a href="code.html"> HOME</a> <a href="about.html"> ABOUT</a> <a href="contact.html"> CONTRACT     </h1></pre></a>
+<h1>Tablet Models & Prices</h1><div class="card">
+  <img src="ipad.jpg" alt="Apple iPad">
+  <div class="details">
+    <h2>Apple – iPad 10th Gen</h2>
+    <div class="price">₹44,900</div>
+    <p>64GB | A14 Bionic</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">10.9-inch Liquid Retina Display, iPadOS Support</div>
+  </div>
+</div><div class="card">
+  <img src="tab.jpg" alt="Samsung Tablet">
+  <div class="details">
+    <h2>Samsung – Galaxy Tab S9</h2>
+    <div class="price">₹72,999</div>
+    <p>128GB | AMOLED</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">Dynamic AMOLED Display, S-Pen Included, 5G Support</div>
+  </div>
+</div><div class="card">
+  <img src="let.jpg" alt="Lenovo Tablet">
+  <div class="details">
+    <h2>Lenovo – Tab P11 Pro</h2>
+    <div class="price">₹49,999</div>
+    <p>128GB | Dolby Vision</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">OLED Display, Quad Speakers, Android OS</div>
+  </div>
+</div><div class="card">
+  <img src="omi.jpg" alt="Xiaomi Tablet">
+  <div class="details">
+    <h2>Xiaomi – Pad 6</h2>
+    <div class="price">₹29,999</div>
+    <p>256GB | Snapdragon 870</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">144Hz Display, Metal Body, Fast Charging</div>
+  </div>
+</div><div class="card">
+  <img src="retab.jpg" alt="Realme Tablet">
+  <div class="details">
+    <h2>Realme – Pad X</h2>
+    <div class="price">₹19,999</div>
+    <p>128GB | Slim Design</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">11-inch Display, 8340mAh Battery, Android OS</div>
+  </div>
+</div><div class="card">
+  <img src="mic.jpg" alt="Microsoft Tablet">
+  <div class="details">
+    <h2>Microsoft – Surface Go 3</h2>
+    <div class="price">₹57,999</div>
+    <p>Intel Core i3 | Windows</p>
+    <button class="btn" onclick="toggleDetails(this)">View Details</button>
+    <div class="extra">10.5-inch Touch Display, Detachable Keyboard</div>
+  </div>
+</div><script>
+  function toggleDetails(btn) {
+    const extra = btn.nextElementSibling;
+    extra.style.display = extra.style.display === "block" ? "none" : "block";
+  }
+</script></body>
+</html>
